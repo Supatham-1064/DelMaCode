@@ -20,11 +20,11 @@ class PersonList {
         
         foreach(Person person in this.personList) {
             if (person is Student) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: Student \n", person.GetFname(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: Student \n", person.GetFname(),person.GetName(),person.GetSurname());
             } else if (person is Teacher) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: Teacher \n", person.GetName(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: Teacher \n", person.GetFname(),person.GetName(),person.GetSurname());
             }else if (person is College) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: College \n", person.GetName(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: College \n", person.GetFname(),person.GetName(),person.GetSurname());
             }
         }
         Console.Write("Please put any word to next :");
@@ -36,11 +36,11 @@ class PersonList {
         
         foreach(Person person in this.personList) {
             if (person is Student) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: Student \n", person.GetFname(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: Student \n", person.GetFname(),person.GetName(),person.GetSurname());
             } else if (person is Teacher) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: Teacher \n", person.GetName(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: Teacher \n", person.GetFname(),person.GetName(),person.GetSurname());
             }else if (person is College) {
-                Console.WriteLine("{0}:{1}:{2} \n Type: College \n", person.GetName(),person.GetName(),person.GetSurname());
+                Console.WriteLine("{0}/{1}/{2} \n Type: College \n", person.GetFname(),person.GetName(),person.GetSurname());
             }
         }
         Console.Write("Please put any word to next :");
