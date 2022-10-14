@@ -77,8 +77,13 @@ public class Program {
     static void ShowLoginScreen() {
         Console.Clear();
         PrintHeaderLoginScreen();
-        string name = InputNameFromKeyboard();
+        string userNamename = InputNameFromKeyboard();
+        if (userNamename == "exit") { 
+            BackToMainMenu();
+        }
         string password = InputPasswordFromKeyboard();
+
+  
         
     }
     public static string InputNameFromKeyboard() {
